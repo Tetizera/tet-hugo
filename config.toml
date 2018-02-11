@@ -1,0 +1,27 @@
+baseURL = "198.199.82.51"
+languageCode = "en-us"
+title = "Tetizera"
+MetaDataFormat ="toml"
+theme = "hyde-x"
+
+[author]
+	name = "Tet"
+
+[permalinks]
+	post = "/blog/:day/:month/:year/:title/"
+
+[taxonomies]
+	category = "categories"
+
+[params]
+# If false display full article contents in blog index.
+# If true show description and 'read on' link to individual blog post page.
+	truncate= false
+# Changes sidebar background and link/accent colours.
+# See below for more colour options.
+# This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
+    theme = "theme-base-08"
+
+# Sidebar social links. Must be full URLs.
+github = "https://github.com/Tetizera"
+twitter = "https://twitter.com/Tetizera"
